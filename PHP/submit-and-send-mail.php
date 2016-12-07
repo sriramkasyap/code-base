@@ -1,10 +1,9 @@
-
-<!--
-
-This Script accepts a POST method submit and sends a mail to the assigned Senders using native PHP mailer function.
-
--->
 <?php
+/*
+
+    This Script accepts a POST method submit and sends a mail to the assigned Senders using native PHP mailer function.
+
+*/
 if(isset($_POST["submit"])) {
    $recipient="ayushi.srivastava@apollosugar.com, apollosugarfsd@gmail.com";
     $subject="Enquiry for Complete Diabetes Checkup";
